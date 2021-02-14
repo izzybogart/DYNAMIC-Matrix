@@ -1,6 +1,6 @@
 /* File: matrix_dynamic.h */
-#ifndef MATRIXh
-#define MATRIXh
+#ifndef __Matrix_Dynamic_H__
+#define __Matrix_Dynamic_H__
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
