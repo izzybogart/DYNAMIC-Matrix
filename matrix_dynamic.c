@@ -148,3 +148,12 @@ void equate(matrix* m1, matrix* m2)
     for (j=0; j<m1->col_dim; j++)
       m2->element[i][j] = m1->element[i][j];
 }
+
+void transpose(matrix a, matrix b) {
+    int row, col;
+    for(row = 0; row < a.col_dim; row++){
+        for(col = 0; col < b.col_dim; col++){
+                b.element[row][col]= a.element[col][row];
+        }
+    }
+}
